@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <!-- Logo on the left -->
+            <div class="logo">
+                <a href="#home"><img src="../images/logo.png" alt="Agency Logo"></a>
+            </div>
+            
+            <!-- Navigation Links on the right -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Boost Your Business with Our Digital Marketing Solutions</h1>
+            <p>We provide innovative digital marketing strategies to help you grow your business.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <img src="../images/service1.png" alt="SEO Optimization">
+                <h3>SEO Optimization</h3>
+                <p>Improve your search engine rankings and increase traffic to your website.</p>
+            </div>
+            <div class="service-item">
+                <img src="../images/service2.png" alt="Content Marketing">
+                <h3>Content Marketing</h3>
+                <p>Create engaging content that attracts and retains customers.</p>
+            </div>
+            <div class="service-item">
+                <img src="../images/service3.png" alt="Social Media Management">
+                <h3>Social Media Management</h3>
+                <p>Enhance your brand presence on social media platforms.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Blog Section -->
+        <section class="blog" id="blog">
+            <div class="container">
+                <h2>Blog</h2>
+                <div class="blog-posts">
+                    <article class="blog-post">
+                        <img src="../images/blog1.png" alt="5 Tips for Effective SEO">
+                        <h3><a href="#post1">5 Tips for Effective <br>SEO</a></h3>
+                        <p>Discover essential strategies to boost your website's search engine rankings and drive organic traffic.</p><br>
+                        <a href="./blog1.html" class="btn">Read More</a>
+                    </article>
+                    <article class="blog-post">
+                        <img src="../images/blog2.png" alt="The Power of Content Marketing">
+                        <h3><a href="#post2">The Power of Content Marketing</a></h3>
+                        <p>Learn how content marketing can drive customer engagement and business growth.</p><br>
+                        <a href="./blog2.html" class="btn">Read More</a>
+                    </article>
+                    <article class="blog-post">
+                        <img src="../images/blog3.png" alt="Maximizing Your Social Media Presence">
+                        <h3><a href="#post3">Maximizing Your Social Media Presence</a></h3>
+                        <p>Tips and strategies to enhance your brand’s visibility and engagement on social media platforms.</p><br>
+                        <a href="./blog3.html" class="btn">Read More</a>
+                    </article>
+                    
+                    <!-- Add more blog posts as needed -->
+                </div>
+            </div>
+        </section>
+
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <img src="../images/about.png" alt="About Us Image" class="about-image">
+                <p>At Digital Marketing Agency, we are passionate about helping businesses succeed in the ever-evolving digital landscape. With over a decade of experience, our team of experts is dedicated to providing innovative and effective digital marketing solutions tailored to meet your unique needs. Our services include comprehensive SEO optimization, engaging content marketing, and strategic social media management. We pride ourselves on our results-driven approach, combining creativity with data-driven insights to deliver impactful results. We have worked with a diverse range of clients, from startups to established enterprises, and have consistently achieved significant improvements in traffic, engagement, and revenue. Looking ahead, we are committed to staying at the forefront of digital marketing trends and continuously evolving our strategies to drive even greater success for our clients. We look forward to partnering with you to achieve your business goals and elevate your brand’s digital presence.</p>
+            </div>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+            
+
+    <!-- Contact Us Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to work with us? Fill out the form below to get in touch.</p>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Digital Marketing Agency. All Rights Reserved.</p>
+            <div class="social">
+                <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="../images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="../images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
